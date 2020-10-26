@@ -5,8 +5,8 @@ import (
 	"github.com/gin-gonic/gin"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/jinzhu/gorm"
-	"golang_demo/com/demo/huling/service"
-	"golang_demo/com/demo/huling/static"
+	"golang_demo/src/com/demo/huling/service"
+	"golang_demo/src/com/demo/huling/static"
 )
 
 func Init() {

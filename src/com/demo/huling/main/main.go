@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"golang_demo/com/demo/huling/static"
-	"golang_demo/com/demo/huling/utils"
+	"golang_demo/src/com/demo/huling/static"
+	"golang_demo/src/com/demo/huling/utils"
 )
 
 func main() {

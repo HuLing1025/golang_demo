@@ -1,8 +1,8 @@
 package dao
 
 import (
-	"golang_demo/com/demo/huling/bean"
-	"golang_demo/com/demo/huling/static"
+	"golang_demo/src/com/demo/huling/bean"
+	"golang_demo/src/com/demo/huling/static"
 )
 
 func SelectUser(user bean.DbUser) bean.DbUser {

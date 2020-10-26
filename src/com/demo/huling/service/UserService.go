@@ -3,8 +3,8 @@ package service
 import (
 	"github.com/gin-gonic/gin"
 	"github.com/gin-gonic/gin/binding"
-	"golang_demo/com/demo/huling/bean"
-	"golang_demo/com/demo/huling/dao"
+	"golang_demo/src/com/demo/huling/bean"
+	"golang_demo/src/com/demo/huling/dao"
 	"net/http"
 )
 
@@ -81,7 +81,7 @@ func Logon(c *gin.Context) {
 			})
 			return
 		} else {
-			c.JSON(http.StatusAccepted, gin.H{
+			c.JSON(http.StatusOK, gin.H{
 				"status":  200,
 				"message": "注册成功!",
 				"data":    nil,
